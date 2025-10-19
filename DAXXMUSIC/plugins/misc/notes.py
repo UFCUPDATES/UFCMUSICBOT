@@ -4,7 +4,7 @@ from pyrogram import filters
 from UFCMUSIC.utils.ritik_ban import admin_filter
 from UFCMUSIC.mongo.notesdb import *
 from UFCMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from UFCMUSIC.utils.yumidb import user_admin
+from UFCMUSIC.utils.ritikdb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 

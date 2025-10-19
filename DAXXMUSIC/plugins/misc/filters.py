@@ -4,8 +4,8 @@ from config import BOT_USERNAME
 from UFCMUSIC.utils.ritik_ban import admin_filter
 from UFCMUSIC.mongo.filtersdb import *
 from UFCMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from UFCMUSIC.utils.yumidb import user_admin
-from UFCMUSIC.utils.yumidb import *
+from UFCMUSIC.utils.ritikdb import user_admin
+from UFCMUSIC.utils.ritikdb import *
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
