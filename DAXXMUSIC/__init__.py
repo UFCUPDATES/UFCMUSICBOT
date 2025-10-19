@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.bot import DAXX
-from DAXXMUSIC.core.dir import dirr
-from DAXXMUSIC.core.git import git
-from DAXXMUSIC.core.userbot import Userbot
-from DAXXMUSIC.misc import dbb, heroku
+from UFCMUSIC.core.bot import DAXX
+from UFCMUSIC.core.dir import dirr
+from UFCMUSIC.core.git import git
+from UFCMUSIC.core.userbot import Userbot
+from UFCMUSIC.misc import dbb, heroku
 from pyrogram import Client
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

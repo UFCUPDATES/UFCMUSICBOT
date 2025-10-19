@@ -1,11 +1,11 @@
 import re
-from DAXXMUSIC import app
+from UFCMUSIC import app
 from config import BOT_USERNAME
-from DAXXMUSIC.utils.daxx_ban import admin_filter
-from DAXXMUSIC.mongo.filtersdb import *
-from DAXXMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from DAXXMUSIC.utils.yumidb import user_admin
-from DAXXMUSIC.utils.yumidb import *
+from UFCMUSIC.utils.daxx_ban import admin_filter
+from UFCMUSIC.mongo.filtersdb import *
+from UFCMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from UFCMUSIC.utils.yumidb import user_admin
+from UFCMUSIC.utils.yumidb import *
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

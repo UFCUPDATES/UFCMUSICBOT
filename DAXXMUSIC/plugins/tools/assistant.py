@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.userbot import assistants
-from DAXXMUSIC import userbot as us, app
+from UFCMUSIC.core.userbot import assistants
+from UFCMUSIC import userbot as us, app
 from pyrogram import filters
 from pyrogram.types import Message
-from DAXXMUSIC.misc import SUDOERS
+from UFCMUSIC.misc import SUDOERS
 from config import BANNED_USERS, OWNER_ID
 
 

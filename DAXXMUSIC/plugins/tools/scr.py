@@ -2,8 +2,8 @@ import asyncio
 from pyrogram import Client, filters
 import re
 from pathlib import Path
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.core.userbot import assistants
+from UFCMUSIC import app, userbot
+from UFCMUSIC.core.userbot import assistants
 
 
 def getcards(text: str):

@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.utils.channelplay import get_channeplayCB
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.stream.stream import stream
+from UFCMUSIC import YouTube, app
+from UFCMUSIC.utils.channelplay import get_channeplayCB
+from UFCMUSIC.utils.decorators.language import languageCB
+from UFCMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

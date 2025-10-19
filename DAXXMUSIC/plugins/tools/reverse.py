@@ -12,7 +12,7 @@ from pyrogram.types import (
 from pyrogram import Client, filters
 
 
-from DAXXMUSIC import app
+from UFCMUSIC import app
 
 ENDPOINT = "https://sasta-api.vercel.app/googleImageSearch"
 httpx_client = httpx.AsyncClient(timeout=60)

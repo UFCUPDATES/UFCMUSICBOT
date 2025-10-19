@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.decorators.language import language
+from UFCMUSIC import app
+from UFCMUSIC.misc import SUDOERS
+from UFCMUSIC.utils.decorators.language import language
 
 
 def testspeed(m, _):

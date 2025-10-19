@@ -1,4 +1,4 @@
-from DAXXMUSIC import app
+from UFCMUSIC import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode
