@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from UFCMUSIC.utils.daxx_font import Fonts
+from UFCMUSIC.utils.ritik_font import Fonts
 from UFCMUSIC import app
 
 @app.on_message(filters.command(["font", "fonts"]))

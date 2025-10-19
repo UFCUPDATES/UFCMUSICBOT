@@ -4,7 +4,7 @@ from UFCMUSIC import app, userbot
 from UFCMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from UFCMUSIC.utils.daxx_ban import admin_filter
+from UFCMUSIC.utils.ritik_ban import admin_filter
 
 
 

@@ -4,7 +4,7 @@ from pyrogram import filters, Client
 from UFCMUSIC import app
 from config import OWNER_ID
 from pyrogram.types import Message
-from UFCMUSIC.utils.daxx_ban import admin_filter
+from UFCMUSIC.utils.ritik_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 

@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from UFCMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from UFCMUSIC.core.call import DAXX
+from UFCMUSIC.core.call import ritik
 from UFCMUSIC.utils import seconds_to_min, time_to_seconds
 from UFCMUSIC.utils.channelplay import get_channeplayCB
 from UFCMUSIC.utils.decorators.language import languageCB
@@ -290,7 +290,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await DAXX.stream_call(url)
+                await ritik.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -503,8 +503,8 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("DAXXmousAdmin") & ~BANNED_USERS)
-async def DAXXmous_check(client, CallbackQuery):
+@app.on_callback_query(filters.regex("ritikmousAdmin") & ~BANNED_USERS)
+async def ritikmous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
             "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
@@ -514,7 +514,7 @@ async def DAXXmous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("DAXXPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("ritikPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()

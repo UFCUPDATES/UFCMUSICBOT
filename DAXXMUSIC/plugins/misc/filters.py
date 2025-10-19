@@ -1,7 +1,7 @@
 import re
 from UFCMUSIC import app
 from config import BOT_USERNAME
-from UFCMUSIC.utils.daxx_ban import admin_filter
+from UFCMUSIC.utils.ritik_ban import admin_filter
 from UFCMUSIC.mongo.filtersdb import *
 from UFCMUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from UFCMUSIC.utils.yumidb import user_admin

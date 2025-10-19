@@ -1,4 +1,4 @@
-from UFCMUSIC.core.bot import DAXX
+from UFCMUSIC.core.bot import ritik
 from UFCMUSIC.core.dir import dirr
 from UFCMUSIC.core.git import git
 from UFCMUSIC.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = DAXX()
+app = ritik()
 api = SafoneAPI()
 userbot = Userbot()
 

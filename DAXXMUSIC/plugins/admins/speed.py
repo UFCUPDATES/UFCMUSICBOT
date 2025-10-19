@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from UFCMUSIC import app
-from UFCMUSIC.core.call import DAXX
+from UFCMUSIC.core.call import ritik
 from UFCMUSIC.misc import SUDOERS, db
 from UFCMUSIC.utils import AdminRightsCheck
 from UFCMUSIC.utils.database import is_active_chat, is_nonadmin_chat
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await DAXX.speedup_stream(
+        await ritik.speedup_stream(
             chat_id,
             file_path,
             speed,

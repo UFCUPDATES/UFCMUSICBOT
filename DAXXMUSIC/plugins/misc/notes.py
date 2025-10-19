@@ -1,7 +1,7 @@
 from UFCMUSIC import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from UFCMUSIC.utils.daxx_ban import admin_filter
+from UFCMUSIC.utils.ritik_ban import admin_filter
 from UFCMUSIC.mongo.notesdb import *
 from UFCMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from UFCMUSIC.utils.yumidb import user_admin

@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from UFCMUSIC import app
-from UFCMUSIC.core.call import DAXX, autoend
+from UFCMUSIC.core.call import ritik, autoend
 from UFCMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -64,7 +64,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await DAXX.stop_stream(chat_id)
+                    await ritik.stop_stream(chat_id)
                 except:
                     continue
                 try:

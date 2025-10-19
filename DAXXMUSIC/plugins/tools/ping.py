@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from config import *
 from UFCMUSIC import app
-from UFCMUSIC.core.call import DAXX
+from UFCMUSIC.core.call import ritik
 from UFCMUSIC.utils import bot_sys_stats
 from UFCMUSIC.utils.decorators.language import language
 from UFCMUSIC.utils.inline import supp_markup
@@ -20,7 +20,7 @@ async def ping_com(client, message: Message, _):
         video="https://graph.org/file/5690109178f081adf464d.mp4",
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await DAXX.ping()
+    pytgping = await ritik.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
